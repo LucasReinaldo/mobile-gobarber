@@ -8,7 +8,6 @@ import moment, { Moment } from 'moment';
 
 import { format } from 'date-fns';
 import { Alert } from 'react-native';
-import { enGB } from 'date-fns/locale';
 import { useAuth } from '../../context/AuthContext';
 
 import api from '../../services/api';
@@ -179,16 +178,27 @@ const CreateAppointment: React.FC = () => {
       }));
   }, [dayAvailability]);
 
-  // TODO: Remove sundays as user option.
   const disabledDays = useMemo(() => {
-    const dates = monthAvailability
+    const datesTaken = monthAvailability
       .filter((monthDays) => monthDays.available === false)
       .map((days) => {
         const year = currentMonth.year();
         const month = currentMonth.month();
         return new Date(year, month, days.day);
       });
-    return dates;
+
+    const startDate = moment([currentMonth.year(), currentMonth.month()]);
+    const endDate = moment(startDate).endOf('month');
+
+    if (startDate.day(0)) {
+      datesTaken.push(startDate.toDate());
+    }
+
+    while (startDate.day(7).isBefore(endDate)) {
+      datesTaken.push(startDate.toDate());
+    }
+
+    return datesTaken;
   }, [currentMonth, monthAvailability]);
 
   return (
