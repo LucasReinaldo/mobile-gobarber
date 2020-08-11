@@ -1,6 +1,9 @@
 import styled from 'styled-components/native';
 import { FlatList, RectButton } from 'react-native-gesture-handler';
-import { getStatusBarHeight } from 'react-native-iphone-x-helper';
+import {
+  getBottomSpace,
+  getStatusBarHeight,
+} from 'react-native-iphone-x-helper';
 import { Provider } from './index';
 
 interface ProviderContainerProps {
@@ -144,6 +147,7 @@ export const CreateAppointmentButton = styled(RectButton)`
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-bottom: ${getBottomSpace() + 24}px;
 `;
 
 export const CreateAppointmentButtonText = styled.Text`
