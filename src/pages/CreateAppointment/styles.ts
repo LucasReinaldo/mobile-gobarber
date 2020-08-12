@@ -154,5 +154,4 @@ export const CreateAppointmentButtonText = styled.Text`
   color: #232129;
   font-family: 'RobotoSlab-Regular';
   font-size: 16px;
-  margin-left: 10px;
 `;

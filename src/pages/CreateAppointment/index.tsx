@@ -308,10 +308,7 @@ const CreateAppointment: React.FC = () => {
         </Schedule>
 
         <CreateAppointmentButton onPress={handleCreateAppointment}>
-          <Icon name="corner-down-right" size={18} />
-          <CreateAppointmentButtonText>
-            Schedule appointment
-          </CreateAppointmentButtonText>
+          <CreateAppointmentButtonText>Book</CreateAppointmentButtonText>
         </CreateAppointmentButton>
       </Main>
     </Container>
