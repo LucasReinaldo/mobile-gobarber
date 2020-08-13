@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { RectButton } from 'react-native-gesture-handler';
-import FeatherIcon from 'react-native-vector-icons/Feather';
+import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
 export const Container = styled(RectButton)`
   align-items: center;
@@ -19,6 +19,7 @@ export const ButtonText = styled.Text`
   font-family: 'RobotoSlab-Medium';
   font-size: 18px;
   text-align: center;
+  /* position: relative; */
 `;
 
 export const IconContainer = styled.View`
@@ -26,6 +27,8 @@ export const IconContainer = styled.View`
   padding: 20px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  /* position: absolute;
+  right: 0; */
 `;
 
-export const Icon = styled(FeatherIcon)``;
+export const Icon = styled(MaterialIcon)``;

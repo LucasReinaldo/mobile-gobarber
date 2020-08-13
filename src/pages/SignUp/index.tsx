@@ -132,8 +132,9 @@ const SignUp: React.FC = () => {
                 onPress={() => {
                   formRef.current?.submitForm();
                 }}
+                icon="person"
               >
-                Sign Up
+                Register
               </Button>
             </Form>
           </Container>

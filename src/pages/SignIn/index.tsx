@@ -122,9 +122,8 @@ const SignIn: React.FC = () => {
                 onPress={() => {
                   formRef.current?.submitForm();
                 }}
-                icon="log-in"
               >
-                Sign Up
+                Sign In
               </Button>
             </Form>
             <ForgotPassword>
