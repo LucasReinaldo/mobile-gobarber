@@ -59,7 +59,7 @@ devDependencies:
 VS Code with EditorConfig and ESLint
 ```
 
-## ℹ️ How To Use
+## 📚 How To Use
 
 To clone and run this application, you'll need Git, Node.js + Yarn installed on your computer and the GoBarber Backend. 
 From your command line:
