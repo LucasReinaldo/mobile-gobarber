@@ -82,6 +82,6 @@ $ react-native run-ios --simulator="iPhone 11"
 $ react-native run-android
 ```
 
-## License
+## 📖 License
 
 This project is under MIT license [LICENSE](LICENSE.md) to know more.
