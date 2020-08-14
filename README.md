@@ -3,12 +3,12 @@
 
 
 <h1 align="center">
-    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Login.png" alt="Login" width="300" />
-    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Register.png" alt="Register" width="300" />
-    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Home-app.png" alt="Home" width="300" />
-    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Profile.png" alt="Profile" width="300" />
-    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/CreateAppointment.png" alt="SignIn" width="300" />
-    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/AppointmentCreated.png" alt="SignIn" width="300" />
+    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Login.png" alt="Login" width="250" />
+    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Register.png" alt="Register" width="250" />
+    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Home-app.png" alt="Home" width="250" />
+    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/Profile.png" alt="Profile" width="250" />
+    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/CreateAppointment.png" alt="SignIn" width="250" />
+    <img src="https://github.com/LucasReinaldo/mobile-gobarber/blob/master/assets/AppointmentCreated.png" alt="SignIn" width="250" />
 </h1>
 
 ## 💻 Project
