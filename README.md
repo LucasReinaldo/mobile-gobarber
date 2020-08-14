@@ -17,7 +17,7 @@ The idea of using a calendar to pick the appointment date instead of the native 
 
 ## 🚀 Technologies
 
-The project was developed during the RocketSeat GoStack Bootcamp, mainly with the following technologies:
+The project was developed during the GoStack Bootcamp by RocketSeat, developed mainly with the following technologies:
 
 ```
 dependencies:
