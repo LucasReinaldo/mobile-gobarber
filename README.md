@@ -74,6 +74,9 @@ $ cd mobile-gobarber
 # Install dependencies
 $ yarn install
 
+# Start
+$ yarn start
+
 # Run the app (iOS)
 $ cd ios && pod install && cd ..
 $ react-native run-ios --simulator="iPhone 11"
