@@ -1,7 +1,5 @@
-<h1 align="center">
-  GoBarber App
-  <p align="center">A React Native App that allows users to book appointments with their favourite barber.</p>
-</h1>
+<h1 align="center">GoBarber App</h1>
+<p align="center">A React Native App that allows users to book appointments with their favourite barber.</p>
 
 
 <h1 align="center">
